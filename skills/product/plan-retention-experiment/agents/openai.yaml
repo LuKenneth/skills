@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Retention Experiment"
+  short_description: "Plan retention experiment with evidence"
+  default_prompt: "Use $plan-retention-experiment to design an experiment to help activated users return for a second useful session."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Dispute Evidence"
+  short_description: "Prepare dispute evidence with evidence"
+  default_prompt: "Use $prepare-dispute-evidence to prepare a dispute response from this payment, usage and support evidence."

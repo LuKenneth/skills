@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refresh Social Proof"
+  short_description: "Refresh social proof with evidence"
+  default_prompt: "Use $refresh-social-proof to refresh our onboarding, paywall and website reviews from recent store feedback."

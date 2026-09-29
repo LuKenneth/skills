@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Onboarding"
+  short_description: "Audit onboarding with evidence"
+  default_prompt: "Use $audit-onboarding to find where new users fail to reach their first useful result."

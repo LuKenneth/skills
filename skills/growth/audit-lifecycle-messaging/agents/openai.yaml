@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Lifecycle Messaging"
+  short_description: "Audit lifecycle messaging with evidence"
+  default_prompt: "Use $audit-lifecycle-messaging to audit trial reminders and re-engagement messages against actual account behavior."

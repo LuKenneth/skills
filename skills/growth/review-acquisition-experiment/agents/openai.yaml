@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Acquisition Experiment"
+  short_description: "Review acquisition experiment with evidence"
+  default_prompt: "Use $review-acquisition-experiment to compare our latest acquisition change with the previous period."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Lead Magnet Funnel"
+  short_description: "Build lead magnet funnel with evidence"
+  default_prompt: "Use $build-lead-magnet-funnel to turn existing product lessons into a free workbook and working signup-to-delivery journey."

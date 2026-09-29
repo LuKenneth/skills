@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconcile Delivery"
+  short_description: "Reconcile delivery with evidence"
+  default_prompt: "Use $reconcile-delivery to check which issues are actually complete after the recent merges."

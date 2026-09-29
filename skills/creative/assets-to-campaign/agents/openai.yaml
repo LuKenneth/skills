@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assets To Campaign"
+  short_description: "Assets to campaign with evidence"
+  default_prompt: "Use $assets-to-campaign to turn this event footage into cohesive campaigns and post-ready drafts."

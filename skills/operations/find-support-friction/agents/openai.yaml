@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Support Friction"
+  short_description: "Find support friction with evidence"
+  default_prompt: "Use $find-support-friction to find recurring refund and access confusion we can prevent in the product."

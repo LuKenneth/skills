@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Mobile Compatibility"
+  short_description: "Review mobile compatibility with evidence"
+  default_prompt: "Use $review-mobile-compatibility to check whether this backend PR is safe for already-installed mobile clients."

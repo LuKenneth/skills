@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Creative Hooks"
+  short_description: "Test creative hooks with evidence"
+  default_prompt: "Use $test-creative-hooks to make title variants while holding the video and caption constant."

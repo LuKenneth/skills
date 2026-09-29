@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Paywall"
+  short_description: "Review paywall with evidence"
+  default_prompt: "Use $review-paywall to review this paywall for offer clarity and purchase-flow failures."

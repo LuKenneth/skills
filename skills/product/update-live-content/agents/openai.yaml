@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Live Content"
+  short_description: "Update live content with evidence"
+  default_prompt: "Use $update-live-content to insert new lessons in the middle of the catalog without disrupting existing users."

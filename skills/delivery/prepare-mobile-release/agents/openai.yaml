@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Mobile Release"
+  short_description: "Prepare mobile release with evidence"
+  default_prompt: "Use $prepare-mobile-release to prepare these web and mobile changes for a verifiable preview and release."

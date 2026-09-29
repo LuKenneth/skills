@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Health Review"
+  short_description: "Business health review with evidence"
+  default_prompt: "Use $business-health-review to review this week and month against equivalent prior periods."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagnose User Journey"
+  short_description: "Diagnose user journey with evidence"
+  default_prompt: "Use $diagnose-user-journey to this user still cannot complete a voice session after our fix. Diagnose it."

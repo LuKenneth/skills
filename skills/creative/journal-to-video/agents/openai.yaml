@@ -1,0 +1,4 @@
+interface:
+  display_name: "Journal To Video"
+  short_description: "Journal to video with evidence"
+  default_prompt: "Use $journal-to-video to find the strongest video ideas in this ramble and script the best two."

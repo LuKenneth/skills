@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roll Out Brand Update"
+  short_description: "Roll out brand update with evidence"
+  default_prompt: "Use $roll-out-brand-update to roll out our new brand across the app, site, emails and downloadable resources."

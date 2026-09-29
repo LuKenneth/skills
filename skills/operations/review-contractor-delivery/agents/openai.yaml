@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Contractor Delivery"
+  short_description: "Review contractor delivery with evidence"
+  default_prompt: "Use $review-contractor-delivery to compare this content-delivery batch with the agreement and identify what needs improvement."

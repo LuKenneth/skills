@@ -1,0 +1,158 @@
+[
+  {
+    "group": "product",
+    "name": "polish-mobile-flow",
+    "description": "Improve an existing mobile flow from user feedback and inspected design references, with verified before-and-after evidence. Use for scoped UI audits or implementation, not a new brand identity.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "product",
+    "name": "audit-onboarding",
+    "description": "Audit a consumer-app onboarding journey against first value, instrumentation and observed friction. Use to diagnose or plan improvements; implementation requires an implementation request.",
+    "maturity": "initial-playbook"
+  },
+  {
+    "group": "product",
+    "name": "review-paywall",
+    "description": "Review consumer subscription paywalls and offer presentation using actual product, billing and entitlement rules. Use for a paywall audit or scoped change, not general pricing valuation.",
+    "maturity": "initial-playbook"
+  },
+  {
+    "group": "product",
+    "name": "plan-retention-experiment",
+    "description": "Design a measurable consumer-app retention experiment from behavior and customer evidence. Use for a bounded hypothesis and test plan, not generic engagement tactics.",
+    "maturity": "initial-playbook"
+  },
+  {
+    "group": "product",
+    "name": "update-live-content",
+    "description": "Plan and execute requested updates to structured content in a live consumer product while preserving progress and references. Use for lessons, workouts, prompts or similar content catalogs.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "product",
+    "name": "diagnose-user-journey",
+    "description": "Investigate an actual customer failure across app behavior, analytics, network conditions and releases. Use for a broken user journey; use account investigation for billing/identity context alone.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "growth",
+    "name": "refresh-social-proof",
+    "description": "Refresh customer reviews and testimonials across specified consumer-app surfaces with source attribution and accurate excerpts. Use for marketing placements, not unbiased feedback analysis.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "growth",
+    "name": "build-lead-magnet-funnel",
+    "description": "Build or improve a consumer-product lead-magnet journey connecting a useful resource, capture, delivery and a relevant product next step. Use for a complete funnel or a named part of it.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "growth",
+    "name": "roll-out-brand-update",
+    "description": "Apply an approved brand direction consistently across specified consumer-product touchpoints. Use for a coordinated rollout, not inventing a new identity or rewriting unrelated product behavior.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "growth",
+    "name": "prepare-growth-brief",
+    "description": "Assemble a dated, evidence-backed consumer-app growth packet for an advisor or collaborator. Use to reconcile context and results, not to invent a growth strategy from missing data.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "growth",
+    "name": "review-acquisition-experiment",
+    "description": "Evaluate a consumer-app acquisition change using spend, cohort maturity and downstream outcomes. Use for campaign readouts and next-test decisions, not automatic budget changes.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "growth",
+    "name": "audit-lifecycle-messaging",
+    "description": "Audit triggered consumer-app email, push and in-app messages for eligibility, timing, useful actions and suppression. Use for a lifecycle journey audit or scoped repair.",
+    "maturity": "initial-playbook"
+  },
+  {
+    "group": "creative",
+    "name": "assets-to-campaign",
+    "description": "Turn existing footage, interviews or UGC into source-backed campaign concepts and reviewable posts. Use for asset repurposing and production; a hook-only request belongs to hook-engine.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "creative",
+    "name": "test-creative-hooks",
+    "description": "Produce and evaluate controlled hook variants for an existing creative asset. Use when the user wants a variant experiment; use hook-engine for ideation or script improvement alone.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "creative",
+    "name": "hook-engine",
+    "description": "Improve truthful video hooks, openings and retention structure from supplied source material or an existing script. Use for hook ideation and retention diagnosis, not rendering a campaign batch.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "creative",
+    "name": "journal-to-video",
+    "description": "Extract source-grounded video concepts and requested scripts from journals, voice notes or unstructured founder reflections. Use before hook optimization when the source contains multiple ideas.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "operations",
+    "name": "investigate-customer",
+    "description": "Resolve a customer\u2019s identity, billing, entitlement and activity context from authorized records. Use for an account-specific question; use journey diagnosis for reproducing app/network failures.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "operations",
+    "name": "reconcile-subscription-access",
+    "description": "Audit a cohort for mismatches between billing state and product entitlement. Use for batch subscription/access reconciliation; use investigate-customer for one account.",
+    "maturity": "initial-playbook"
+  },
+  {
+    "group": "operations",
+    "name": "prepare-dispute-evidence",
+    "description": "Prepare a factual subscription or digital-product payment dispute response and evidence packet. Use for evidence preparation, not automatic submission or claims of guaranteed outcomes.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "operations",
+    "name": "business-health-review",
+    "description": "Produce a source-defined operating review of a software business across comparable time windows. Use for revenue, recurring revenue, user activity and churn reporting, not company valuation.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "operations",
+    "name": "triage-production-alerts",
+    "description": "Triage a bounded batch of production alerts and related support signals into actionable incidents. Use for impact and investigation prioritization; scheduling and deployment are separate tasks.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "operations",
+    "name": "find-support-friction",
+    "description": "Analyze a bounded set of support conversations to identify recurring product and self-service improvements. Use for patterns across customers, not resolving one account or auto-replying.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "operations",
+    "name": "review-contractor-delivery",
+    "description": "Review agreed contractor output against scope, quality, time and dependencies. Use for delivery assessment and a constructive improvement brief, not automatic pay or employment decisions.",
+    "maturity": "initial-playbook"
+  },
+  {
+    "group": "delivery",
+    "name": "prepare-mobile-release",
+    "description": "Prepare a coordinated consumer-mobile release across backend, app updates and native builds. Use for release readiness and authorized coordination, not generic PR review.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "delivery",
+    "name": "reconcile-delivery",
+    "description": "Reconcile backlog acceptance criteria with merged changes and actual release evidence. Use to audit or update delivery status, not infer value from PR counts.",
+    "maturity": "field-derived"
+  },
+  {
+    "group": "delivery",
+    "name": "review-mobile-compatibility",
+    "description": "Review cross-version API, data and release compatibility for consumer mobile changes. Use for compatibility-focused PR review, especially backend changes consumed by installed older clients.",
+    "maturity": "field-derived"
+  }
+]

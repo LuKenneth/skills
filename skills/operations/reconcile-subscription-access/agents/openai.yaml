@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconcile Subscription Access"
+  short_description: "Reconcile subscription access with evidence"
+  default_prompt: "Use $reconcile-subscription-access to find paid customers missing access and expired accounts retaining access."

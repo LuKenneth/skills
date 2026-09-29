@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hook Engine"
+  short_description: "Hook engine with evidence"
+  default_prompt: "Use $hook-engine to find stronger hooks and an opening for this founder story without inventing details."

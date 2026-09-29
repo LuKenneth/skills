@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Growth Brief"
+  short_description: "Prepare growth brief with evidence"
+  default_prompt: "Use $prepare-growth-brief to prepare a packet showing what we tried, what happened and what remains uncertain."

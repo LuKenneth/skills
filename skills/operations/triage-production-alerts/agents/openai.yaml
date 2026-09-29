@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Production Alerts"
+  short_description: "Triage production alerts with evidence"
+  default_prompt: "Use $triage-production-alerts to review recent alerts, group duplicates and tell me what actually needs action."

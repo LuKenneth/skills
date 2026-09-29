@@ -1,0 +1,4 @@
+interface:
+  display_name: "Polish Mobile Flow"
+  short_description: "Polish mobile flow with evidence"
+  default_prompt: "Use $polish-mobile-flow to improve this lesson-completion flow while preserving its reward semantics."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Customer"
+  short_description: "Investigate customer with evidence"
+  default_prompt: "Use $investigate-customer to explain why this customer paid but cannot access the product."
