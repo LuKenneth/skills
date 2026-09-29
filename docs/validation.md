@@ -2,7 +2,7 @@
 
 ## Checks included
 
-- YAML entrypoints and UI metadata, matching names and catalog entries.
+- YAML entrypoints and optional UI metadata, matching names and catalog entries.
 - Complete feedback-loop and regression references in every skill.
 - Relative references remain within the individual skill; each folder is tested after an independent copy.
 - Missing learning files, broken references, escaping dependencies, private local paths and invalid names are rejected by negative tests.
@@ -30,3 +30,9 @@ Each skill has `references/regression-cases.md`: a domain failure, corrective fo
 Manual initial review covered the workflow boundaries and the evidence/authorization rules. There has been no independent-agent benchmark or live end-to-end run of every integration. Packaging tests do not prove conversion gains, correct financial calculations, legal sufficiency, deployment safety or reliable media generation. The skills request appropriate verification during execution and label missing evidence.
 
 An agent must have continued context and permission to edit the loaded copy for the learning loop to persist. To test read-only behavior, make a disposable copy read-only and confirm the agent returns a concrete patch and a persistence limitation rather than claiming the installed skill changed. Do not automatically publish learned changes.
+
+Vendor metadata is optional: a test removes the adapter directory and confirms that the standalone skill remains valid. Documentation links in the root, docs and examples are checked as well.
+
+## Installer smoke check
+
+The visitor-packaging revision was checked with `skills` CLI 1.7.0: discovery found all 26 skills, and a project-scoped copy install of `polish-mobile-flow` targeting Claude Code, Codex and Cursor succeeded in a disposable directory. The installed copies retained the entrypoint, feedback loop and regression references. This verifies installer packaging, not agent runtime behavior or every integration.

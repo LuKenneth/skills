@@ -29,7 +29,7 @@ Journey map, sourced friction findings, instrumentation gaps and prioritized exp
 
 ## Example request
 
-> Use $audit-onboarding: Find where new users fail to reach their first useful result.
+> Use the audit-onboarding skill: Find where new users fail to reach their first useful result.
 
 ## Learned corrections
 

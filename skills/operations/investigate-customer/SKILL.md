@@ -29,7 +29,7 @@ Resolved identifiers or ambiguity, timeline, diagnosis, missing facts, next acti
 
 ## Example request
 
-> Use $investigate-customer: Explain why this customer paid but cannot access the product.
+> Use the investigate-customer skill: Explain why this customer paid but cannot access the product.
 
 ## Learned corrections
 

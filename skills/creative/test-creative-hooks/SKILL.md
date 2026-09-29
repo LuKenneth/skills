@@ -29,7 +29,7 @@ Control and variants, stable caption, manifest, QA notes and a bounded readout p
 
 ## Example request
 
-> Use $test-creative-hooks: Make title variants while holding the video and caption constant.
+> Use the test-creative-hooks skill: Make title variants while holding the video and caption constant.
 
 ## Learned corrections
 

@@ -29,7 +29,7 @@ A requirement-to-evidence table, reviewed captures, scoped change or PR when req
 
 ## Example request
 
-> Use $polish-mobile-flow: Improve this lesson-completion flow while preserving its reward semantics.
+> Use the polish-mobile-flow skill: Improve this lesson-completion flow while preserving its reward semantics.
 
 ## Learned corrections
 

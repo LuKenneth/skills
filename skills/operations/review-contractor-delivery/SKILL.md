@@ -29,7 +29,7 @@ Scope-versus-delivery comparison, quality findings, dependency analysis and a co
 
 ## Example request
 
-> Use $review-contractor-delivery: Compare this content-delivery batch with the agreement and identify what needs improvement.
+> Use the review-contractor-delivery skill: Compare this content-delivery batch with the agreement and identify what needs improvement.
 
 ## Learned corrections
 

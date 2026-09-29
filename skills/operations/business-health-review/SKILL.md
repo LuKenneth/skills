@@ -29,7 +29,7 @@ Metric table with definitions, source/as-of notes, comparable deltas, anomalies 
 
 ## Example request
 
-> Use $business-health-review: Review this week and month against equivalent prior periods.
+> Use the business-health-review skill: Review this week and month against equivalent prior periods.
 
 ## Learned corrections
 

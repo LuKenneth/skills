@@ -29,7 +29,7 @@ An experiment brief with hypothesis, eligibility, variants, instrumentation, dec
 
 ## Example request
 
-> Use $plan-retention-experiment: Design an experiment to help activated users return for a second useful session.
+> Use the plan-retention-experiment skill: Design an experiment to help activated users return for a second useful session.
 
 ## Learned corrections
 

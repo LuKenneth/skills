@@ -31,7 +31,7 @@ Requested resource and/or working journey, audience mapping, delivery draft, ver
 
 ## Example request
 
-> Use $build-lead-magnet-funnel: Turn existing product lessons into a free workbook and working signup-to-delivery journey.
+> Use the build-lead-magnet-funnel skill: Turn existing product lessons into a free workbook and working signup-to-delivery journey.
 
 ## Learned corrections
 

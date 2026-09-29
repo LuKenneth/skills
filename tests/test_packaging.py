@@ -23,6 +23,10 @@ class PackagingTests(unittest.TestCase):
                 shutil.copytree(source.parent, target)
                 self.assertEqual(module.validate_skill(target), [])
 
+    def test_optional_vendor_adapter_can_be_removed(self):
+        shutil.rmtree(self.path / 'agents')
+        self.assertEqual(module.validate_skill(self.path), [])
+
     def test_missing_feedback_reference_is_rejected(self):
         (self.path / 'references/feedback-loop.md').unlink()
         self.assertTrue(any('feedback-loop' in e for e in module.validate_skill(self.path)))

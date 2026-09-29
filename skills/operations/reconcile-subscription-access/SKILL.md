@@ -29,7 +29,7 @@ Mismatch report, exceptions, source freshness, proposed repairs and verification
 
 ## Example request
 
-> Use $reconcile-subscription-access: Find paid customers missing access and expired accounts retaining access.
+> Use the reconcile-subscription-access skill: Find paid customers missing access and expired accounts retaining access.
 
 ## Learned corrections
 

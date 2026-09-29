@@ -29,7 +29,7 @@ Source/placement manifest, verified revisions or drafts, screenshots where relev
 
 ## Example request
 
-> Use $refresh-social-proof: Refresh our onboarding, paywall and website reviews from recent store feedback.
+> Use the refresh-social-proof skill: Refresh our onboarding, paywall and website reviews from recent store feedback.
 
 ## Learned corrections
 

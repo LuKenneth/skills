@@ -29,7 +29,7 @@ Prioritized concept map, source traceability, requested complete scripts and foc
 
 ## Example request
 
-> Use $journal-to-video: Find the strongest video ideas in this ramble and script the best two.
+> Use the journal-to-video skill: Find the strongest video ideas in this ramble and script the best two.
 
 ## Learned corrections
 

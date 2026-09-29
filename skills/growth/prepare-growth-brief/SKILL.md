@@ -29,7 +29,7 @@ A shareable dated brief, experiment ledger, metric definitions, source notes and
 
 ## Example request
 
-> Use $prepare-growth-brief: Prepare a packet showing what we tried, what happened and what remains uncertain.
+> Use the prepare-growth-brief skill: Prepare a packet showing what we tried, what happened and what remains uncertain.
 
 ## Learned corrections
 

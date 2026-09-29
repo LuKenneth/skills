@@ -31,7 +31,7 @@ Dependency/release matrix, exact candidate, test/device evidence, rollout/recove
 
 ## Example request
 
-> Use $prepare-mobile-release: Prepare these web and mobile changes for a verifiable preview and release.
+> Use the prepare-mobile-release skill: Prepare these web and mobile changes for a verifiable preview and release.
 
 ## Learned corrections
 

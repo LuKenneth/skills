@@ -29,7 +29,7 @@ Offer/entitlement matrix, concrete defects, proposed revisions and a measurable 
 
 ## Example request
 
-> Use $review-paywall: Review this paywall for offer clarity and purchase-flow failures.
+> Use the review-paywall skill: Review this paywall for offer clarity and purchase-flow failures.
 
 ## Learned corrections
 

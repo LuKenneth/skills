@@ -1,106 +1,78 @@
-# Skills for consumer software operators
+# Skills for Consumer Software Operators
 
-Agent workflows for building, growing and running consumer apps. Built from real operating patterns, with portable project context and a corrective-feedback loop in every skill.
+Practical agent skills for the work around a consumer app: improving the product, finding customers, shipping updates, and keeping the business running.
 
-These are editable instructions, not a hosted service or an autonomous workforce. They help an agent finish a defined job using the tools and access you provide. No subscription or proprietary connector is required by the instructions; individual jobs may need billing exports, source code, analytics, a browser, media tooling or a connected account.
+Created by [Luke Patterson](https://github.com/LuKenneth) from operating consumer software. Start with one skill, bring your own tools and project context, and adapt it as you work. Each skill learns from your corrective feedback by updating its local instructions.
 
-## Start here
+## Get started
 
-Try **polish-mobile-flow**, **refresh-social-proof**, **build-lead-magnet-funnel**, or **assets-to-campaign**. Choose one workflow and supply the relevant project context. Install only what you need.
-
-## Install
-
-Clone this repository, then copy a complete skill folder (including `references` and `agents`) into your agent's skills directory. For Codex, a personal installation is typically `~/.codex/skills/<skill-name>/`. Other agents can use their own supported skill location or read the entrypoint directly. Category folders organize this repository; each individual skill is self-contained.
+Run this from the project where you want to use the skills:
 
 ```sh
-git clone https://github.com/lukenneth/skills.git
-mkdir -p ~/.codex/skills
-cp -R skills/skills/product/polish-mobile-flow ~/.codex/skills/
+npx skills@latest add lukenneth/skills
 ```
 
-Use a writable copy if you want corrective feedback to persist. Existing same-named skills should be compared before replacement; do not overwrite your own changes blindly.
+Choose the skills and agents you want. The [open skills installer](https://github.com/vercel-labs/skills) supports Claude Code, Codex, Cursor, OpenCode and other agents. You need Node.js for this installation method; the skills themselves are Markdown instructions.
 
-Example: `Use $polish-mobile-flow to improve this completion screen. Preserve reward behavior and include verified before/after screenshots.`
+Or start with a single skill:
 
-## The collection
+```sh
+npx skills@latest add lukenneth/skills --skill polish-mobile-flow
+```
 
-### Product
+Then ask your agent:
 
-| Skill | Job |
-| --- | --- |
-| [polish-mobile-flow](skills/product/polish-mobile-flow/SKILL.md) | Improve an existing mobile flow from user feedback and inspected design references, with verified before-and-after evidence. |
-| [audit-onboarding](skills/product/audit-onboarding/SKILL.md) | Audit a consumer-app onboarding journey against first value, instrumentation and observed friction. |
-| [review-paywall](skills/product/review-paywall/SKILL.md) | Review consumer subscription paywalls and offer presentation using actual product, billing and entitlement rules. |
-| [plan-retention-experiment](skills/product/plan-retention-experiment/SKILL.md) | Design a measurable consumer-app retention experiment from behavior and customer evidence. |
-| [update-live-content](skills/product/update-live-content/SKILL.md) | Plan and execute requested updates to structured content in a live consumer product while preserving progress and references. |
-| [diagnose-user-journey](skills/product/diagnose-user-journey/SKILL.md) | Investigate an actual customer failure across app behavior, analytics, network conditions and releases. |
+> Use the polish-mobile-flow skill to improve this completion screen. Preserve reward behavior and show verified before-and-after screenshots.
 
-### Growth
+No required setup interview, custom MCP server or vendor SDK. Bring screenshots, source files, exports or connected tools relevant to the job. [Installation, manual setup and updates →](docs/getting-started.md)
 
-| Skill | Job |
-| --- | --- |
-| [refresh-social-proof](skills/growth/refresh-social-proof/SKILL.md) | Refresh customer reviews and testimonials across specified consumer-app surfaces with source attribution and accurate excerpts. |
-| [build-lead-magnet-funnel](skills/growth/build-lead-magnet-funnel/SKILL.md) | Build or improve a consumer-product lead-magnet journey connecting a useful resource, capture, delivery and a relevant product next step. |
-| [roll-out-brand-update](skills/growth/roll-out-brand-update/SKILL.md) | Apply an approved brand direction consistently across specified consumer-product touchpoints. |
-| [prepare-growth-brief](skills/growth/prepare-growth-brief/SKILL.md) | Assemble a dated, evidence-backed consumer-app growth packet for an advisor or collaborator. |
-| [review-acquisition-experiment](skills/growth/review-acquisition-experiment/SKILL.md) | Evaluate a consumer-app acquisition change using spend, cohort maturity and downstream outcomes. |
-| [audit-lifecycle-messaging](skills/growth/audit-lifecycle-messaging/SKILL.md) | Audit triggered consumer-app email, push and in-app messages for eligibility, timing, useful actions and suppression. |
+## What do you need to do?
 
-### Creative
+| Situation | Start with | What you get |
+| --- | --- | --- |
+| The app works, but the flow feels rough | [polish-mobile-flow](skills/product/polish-mobile-flow/SKILL.md) | A scoped improvement with visual verification |
+| Good reviews are scattered across the stores | [refresh-social-proof](skills/growth/refresh-social-proof/SKILL.md) | Sourced reviews adapted to your paywall, onboarding and site |
+| You want a useful free resource that leads into the app | [build-lead-magnet-funnel](skills/growth/build-lead-magnet-funnel/SKILL.md) | Resource, capture, delivery and a relevant next step |
+| You have footage but no coherent campaign | [assets-to-campaign](skills/creative/assets-to-campaign/SKILL.md) | Story concepts, drafts, captions and an editing-review flow |
+| A customer paid but cannot get access | [investigate-customer](skills/operations/investigate-customer/SKILL.md) | A reconciled account timeline and next action |
+| Backend and mobile changes need to ship together | [prepare-mobile-release](skills/delivery/prepare-mobile-release/SKILL.md) | Compatibility checks, release order and a verified candidate |
 
-| Skill | Job |
-| --- | --- |
-| [assets-to-campaign](skills/creative/assets-to-campaign/SKILL.md) | Turn existing footage, interviews or UGC into source-backed campaign concepts and reviewable posts. |
-| [test-creative-hooks](skills/creative/test-creative-hooks/SKILL.md) | Produce and evaluate controlled hook variants for an existing creative asset. |
-| [hook-engine](skills/creative/hook-engine/SKILL.md) | Improve truthful video hooks, openings and retention structure from supplied source material or an existing script. |
-| [journal-to-video](skills/creative/journal-to-video/SKILL.md) | Extract source-grounded video concepts and requested scripts from journals, voice notes or unstructured founder reflections. |
+## Browse all 26 skills
 
-### Operations
+| Collection | Skills | Focus |
+| --- | ---: | --- |
+| [Product](docs/skills.md#product) | 6 | Onboarding, paywalls, retention, content and user journeys |
+| [Growth](docs/skills.md#growth) | 6 | Social proof, lead magnets, brand rollout and acquisition |
+| [Creative](docs/skills.md#creative) | 4 | Campaigns, hook experiments, stories and scripts |
+| [Operations](docs/skills.md#operations) | 7 | Customers, disputes, metrics, alerts and contractor delivery |
+| [Delivery](docs/skills.md#delivery) | 3 | Releases, compatibility and delivery status |
 
-| Skill | Job |
-| --- | --- |
-| [investigate-customer](skills/operations/investigate-customer/SKILL.md) | Resolve a customer’s identity, billing, entitlement and activity context from authorized records. |
-| [reconcile-subscription-access](skills/operations/reconcile-subscription-access/SKILL.md) | Audit a cohort for mismatches between billing state and product entitlement. |
-| [prepare-dispute-evidence](skills/operations/prepare-dispute-evidence/SKILL.md) | Prepare a factual subscription or digital-product payment dispute response and evidence packet. |
-| [business-health-review](skills/operations/business-health-review/SKILL.md) | Produce a source-defined operating review of a software business across comparable time windows. |
-| [triage-production-alerts](skills/operations/triage-production-alerts/SKILL.md) | Triage a bounded batch of production alerts and related support signals into actionable incidents. |
-| [find-support-friction](skills/operations/find-support-friction/SKILL.md) | Analyze a bounded set of support conversations to identify recurring product and self-service improvements. |
-| [review-contractor-delivery](skills/operations/review-contractor-delivery/SKILL.md) | Review agreed contractor output against scope, quality, time and dependencies. |
+[Full catalog with example requests →](docs/skills.md)
 
-### Delivery
+## Combine them when the job needs it
 
-| Skill | Job |
-| --- | --- |
-| [prepare-mobile-release](skills/delivery/prepare-mobile-release/SKILL.md) | Prepare a coordinated consumer-mobile release across backend, app updates and native builds. |
-| [reconcile-delivery](skills/delivery/reconcile-delivery/SKILL.md) | Reconcile backlog acceptance criteria with merged changes and actual release evidence. |
-| [review-mobile-compatibility](skills/delivery/review-mobile-compatibility/SKILL.md) | Review cross-version API, data and release compatibility for consumer mobile changes. |
+- **Improve activation:** audit-onboarding → polish-mobile-flow → prepare-mobile-release.
+- **Turn a story into a creative test:** journal-to-video → hook-engine → test-creative-hooks.
+- **Learn from customer problems:** find-support-friction → diagnose-user-journey → reconcile-delivery.
 
-## Project context
+Each skill works alone. These are suggested handoffs, not an orchestrator that runs or grants permission for the next step. [Worked examples →](examples/workflows.md)
 
-Keep the business-specific information in your own project. Start with [the context template](examples/operator-context.md), or use existing docs. Skills do not assume a particular schema, platform, brand or permission model. Provide references to credentials, never their values in context documents.
+## Use your agent and your stack
 
-Common distinctions: `investigate-customer` resolves one account; `reconcile-subscription-access` audits a cohort; `diagnose-user-journey` traces a product failure. `hook-engine` improves the idea/opening; `test-creative-hooks` controls a variant experiment; `assets-to-campaign` produces a broader batch. `review-mobile-compatibility` reviews contracts; `prepare-mobile-release` coordinates a release; `reconcile-delivery` reconciles accepted work with actual delivery.
+The portable interface is `SKILL.md` plus its local references, following the [Agent Skills format](https://agentskills.io/specification). No particular model, billing platform, database or analytics provider is required. Optional `agents/openai.yaml` files provide Codex UI hints; other agents can ignore them.
 
-## Learning from corrections
+An agent still needs the capabilities required by the task: a PDF renderer for a PDF, access to code for implementation, or authorized billing data for a dispute. Missing tools are reported as limits. [Compatibility and invocation →](docs/getting-started.md#agents-and-invocation)
 
-Every skill includes its own feedback-loop instructions. When you correct a result, the executing agent is instructed to fix the result, edit the relevant skill instruction, add a synthetic regression case, check that correction and a neighboring case, and tell you what changed. Project-only preferences stay in your private context; the reusable skill learns to consult them.
+## Make them yours
 
-This requires an agent with writable access to the loaded skill and continued context from your correction. It is not an automatic background process. Read-only installations produce a proposed patch and an explicit persistence limitation. Local corrections are never automatically published to this repository. Review and sanitize changes before contributing them.
+When you correct a result, the skill instructs the agent to fix it, update the relevant instruction, and add a regression example. This needs writable skill files and an agent that follows the feedback instructions. Private project preferences stay in your project; corrections are never automatically pushed upstream.
 
-## Maturity and validation
+Keep a fork or backup of local improvements before updating. [How feedback and updates work →](docs/learning.md)
 
-All skills are an initial public edition. `field-derived` means the workflow was extracted from operating patterns; it does not mean independently benchmarked. `initial-playbook` marks adjacent recommendations that need more real-world iteration. See [the catalog](catalog.json) for each label.
+## About this collection
 
-Each skill includes synthetic behavioral cases. Repository checks validate packaging and privacy patterns; they do not prove that an agent will make the correct business decision or that every integration works. See [validation](VALIDATION.md) for the release checks and limits.
+This is an initial public collection. The [catalog](docs/skills.md) distinguishes workflows derived from operating experience from newer playbooks. Packaging checks pass; that is not a claim that every workflow has been benchmarked across every agent. [Validation details →](docs/validation.md)
 
-Install development dependencies with `python3 -m pip install -r requirements-dev.txt` in a virtual environment, then run `python3 scripts/validate.py` and `python3 -m unittest discover -s tests` before contributing. Add a case for the failure your change prevents. Avoid blanket policies from one example, new tool dependencies without a concrete need, or generic instructions that do not change a decision.
+Inspired by the practical, composable packaging of [Matt Pocock's skills](https://github.com/mattpocock/skills). These workflows focus on operating consumer software.
 
-## Origins and scope
-
-Created by Luke Patterson for independent consumer-software operators. Inspired by the clear task packaging in [Matt Pocock's skills](https://github.com/mattpocock/skills); this collection focuses on operating consumer products. Public examples are synthetic. No customer records, private conversation exports or paid third-party playbooks are included.
-
-See [coverage](COVERAGE.md) for how the recommended workflows map to the collection.
-
-## License
-
-MIT. See [LICENSE](LICENSE).
+[Contribute](CONTRIBUTING.md) · [Report an issue](https://github.com/LuKenneth/skills/issues) · [MIT license](LICENSE)

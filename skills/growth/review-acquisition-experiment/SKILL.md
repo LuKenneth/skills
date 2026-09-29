@@ -29,7 +29,7 @@ Comparable readout, assumptions and data gaps, decision options and a follow-up 
 
 ## Example request
 
-> Use $review-acquisition-experiment: Compare our latest acquisition change with the previous period.
+> Use the review-acquisition-experiment skill: Compare our latest acquisition change with the previous period.
 
 ## Learned corrections
 

@@ -29,7 +29,7 @@ Submission-ready evidence document, response draft, source index, private workin
 
 ## Example request
 
-> Use $prepare-dispute-evidence: Prepare a dispute response from this payment, usage and support evidence.
+> Use the prepare-dispute-evidence skill: Prepare a dispute response from this payment, usage and support evidence.
 
 ## Learned corrections
 

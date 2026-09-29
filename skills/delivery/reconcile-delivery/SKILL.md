@@ -29,7 +29,7 @@ Criterion-to-evidence table, proposed or verified status changes, and remaining 
 
 ## Example request
 
-> Use $reconcile-delivery: Check which issues are actually complete after the recent merges.
+> Use the reconcile-delivery skill: Check which issues are actually complete after the recent merges.
 
 ## Learned corrections
 

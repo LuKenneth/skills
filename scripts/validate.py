@@ -30,7 +30,7 @@ def validate_skill(folder):
     desc = meta.get('description')
     if not isinstance(desc, str) or not desc.strip() or len(desc) > 1024:
         errors.append('invalid description')
-    for required in ['references/feedback-loop.md', 'references/regression-cases.md', 'agents/openai.yaml']:
+    for required in ['references/feedback-loop.md', 'references/regression-cases.md']:
         if not (folder / required).is_file():
             errors.append(f'missing {required}')
     for doc in folder.rglob('*.md'):
@@ -81,9 +81,9 @@ def validate_repo(root):
             meta = yaml.safe_load((folder / 'SKILL.md').read_text().split('---', 2)[1])
             if meta.get('description') != row['description'] or meta.get('metadata', {}).get('maturity') != row['maturity']:
                 errors.append(f"{row['name']}: stale catalog metadata")
-    for doc in root.glob('*.md'):
+    for doc in [*root.glob('*.md'), *(root / 'docs').rglob('*.md'), *(root / 'examples').rglob('*.md')]:
         for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)', doc.read_text()):
-            if not re.match(r'https?://', target) and not (root / target.split('#')[0]).exists():
+            if not re.match(r'https?://', target) and not (doc.parent / target.split('#')[0]).exists():
                 errors.append(f'{doc.name}: missing link: {target}')
     return errors
 

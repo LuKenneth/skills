@@ -29,7 +29,7 @@ Trigger/state/destination map, prioritized defects, revised drafts or requested 
 
 ## Example request
 
-> Use $audit-lifecycle-messaging: Audit trial reminders and re-engagement messages against actual account behavior.
+> Use the audit-lifecycle-messaging skill: Audit trial reminders and re-engagement messages against actual account behavior.
 
 ## Learned corrections
 

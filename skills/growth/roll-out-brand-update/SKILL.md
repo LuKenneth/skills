@@ -29,7 +29,7 @@ Touchpoint checklist, approved changes, render evidence and release status by su
 
 ## Example request
 
-> Use $roll-out-brand-update: Roll out our new brand across the app, site, emails and downloadable resources.
+> Use the roll-out-brand-update skill: Roll out our new brand across the app, site, emails and downloadable resources.
 
 ## Learned corrections
 

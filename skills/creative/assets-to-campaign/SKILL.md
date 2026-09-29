@@ -31,7 +31,7 @@ Campaign map, source-linked post manifest, requested rendered drafts, captions a
 
 ## Example request
 
-> Use $assets-to-campaign: Turn this event footage into cohesive campaigns and post-ready drafts.
+> Use the assets-to-campaign skill: Turn this event footage into cohesive campaigns and post-ready drafts.
 
 ## Learned corrections
 

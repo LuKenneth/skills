@@ -29,7 +29,7 @@ Deduplicated incident list, impact/confidence, evidence, disposition and scoped 
 
 ## Example request
 
-> Use $triage-production-alerts: Review recent alerts, group duplicates and tell me what actually needs action.
+> Use the triage-production-alerts skill: Review recent alerts, group duplicates and tell me what actually needs action.
 
 ## Learned corrections
 

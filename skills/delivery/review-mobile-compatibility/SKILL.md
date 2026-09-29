@@ -29,7 +29,7 @@ Compatibility matrix, evidenced findings, validation limits and review comments 
 
 ## Example request
 
-> Use $review-mobile-compatibility: Check whether this backend PR is safe for already-installed mobile clients.
+> Use the review-mobile-compatibility skill: Check whether this backend PR is safe for already-installed mobile clients.
 
 ## Learned corrections
 

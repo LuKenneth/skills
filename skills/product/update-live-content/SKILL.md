@@ -29,7 +29,7 @@ Content diff, impact matrix, validated import/migration materials and documentat
 
 ## Example request
 
-> Use $update-live-content: Insert new lessons in the middle of the catalog without disrupting existing users.
+> Use the update-live-content skill: Insert new lessons in the middle of the catalog without disrupting existing users.
 
 ## Learned corrections
 

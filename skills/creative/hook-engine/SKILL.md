@@ -29,7 +29,7 @@ Recommended hook, alternatives with rationale, opening, video spine and targeted
 
 ## Example request
 
-> Use $hook-engine: Find stronger hooks and an opening for this founder story without inventing details.
+> Use the hook-engine skill: Find stronger hooks and an opening for this founder story without inventing details.
 
 ## Learned corrections
 

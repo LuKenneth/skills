@@ -29,7 +29,7 @@ Sourced timeline, confirmed or bounded diagnosis, impact, next action and option
 
 ## Example request
 
-> Use $diagnose-user-journey: This user still cannot complete a voice session after our fix. Diagnose it.
+> Use the diagnose-user-journey skill: This user still cannot complete a voice session after our fix. Diagnose it.
 
 ## Learned corrections
 

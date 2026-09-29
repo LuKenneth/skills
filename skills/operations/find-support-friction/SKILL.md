@@ -29,7 +29,7 @@ Evidence-backed themes, representative redacted examples, prioritized fixes and 
 
 ## Example request
 
-> Use $find-support-friction: Find recurring refund and access confusion we can prevent in the product.
+> Use the find-support-friction skill: Find recurring refund and access confusion we can prevent in the product.
 
 ## Learned corrections
 
